@@ -1,3 +1,4 @@
+# STEP TWO: BUILD MODULE
 # below methods all? any? and filter operate on any class
 # provided MyEnumerable is included on that class and
 # assuming that the class iterates elements with an each method
