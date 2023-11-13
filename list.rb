@@ -1,8 +1,16 @@
 require_relative 'enumerable'
 
 class MyList
+
+  # STEP THREE: UPDATE CLASS TO INCLUDE MODULE
+  # after building the module MyEnumerable
+  # make sure to include within the class MyList
+  #!!! this allows MyList instances to use MyEnumerable methods
   include MyEnumerable
+
   
+
+# STEP ONE: BUILD CLASS 
 # initialize method takes a variable number of elements
 # it then stores them in @list  
   def initialize(*elements)
